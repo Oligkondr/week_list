@@ -40,9 +40,11 @@ td, th{
 
 th {
     color: white;
-    /*background-color: #3f7896;*/
+    text-shadow: #6e6e6e 1px 0 10px;
+    /*text-shadow: 5px 5px #6e6e6e;*/
+    font-size: large;
+    /*-webkit-text-stroke: 1px #000000;*/
     background: linear-gradient(180deg, #f6bc37 60%, #ff9800);
-    /*#3f7896, #173d50, #3f7896*/
     padding: 6px 12px;
 }
 
@@ -54,7 +56,7 @@ td {
 tr:not(.title):hover td {
     border: 1px solid black;
     background-color: #ffe0a5;
-    transition: 0.5s;
+    transition: 0.8s;
 }
 
 tr:not(.title):hover {
